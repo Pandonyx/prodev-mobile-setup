@@ -2,7 +2,11 @@ import { StyleSheet, Text, View } from "react-native";
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
     backgroundColor: "#90caf9",
+    padding: 20,
   },
   largeText: {
     fontSize: 30,
